@@ -1,0 +1,9 @@
+SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+()
+SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+()
+BEGIN (implicit)
+SELECT count(*) AS count_1 
+FROM (SELECT buyer.id AS buyer_id, buyer.nick AS buyer_nick, buyer.email AS buyer_email 
+FROM buyer) AS anon_1
+()
