@@ -1,0 +1,13 @@
+ #for i in range(0, len(rows)):
+         #   for j in range(0, len(colNames)):
+          #      id = QtWidgets.QTableWidgetItem(str(rows[i][j]))
+           #     self.tableWidget.setItem(i, j, id)
+
+
+
+  data.append(self.drugName.text())
+            data.append(self.drugDiller.currentText())
+            data.append(self.drugUse.text())
+            data.append(self.drugCount.text())
+            data.append(self.drugSelPrice.text())
+            data.append(self.drugPurchPrice.text())

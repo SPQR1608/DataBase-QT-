@@ -1,0 +1,1 @@
+pyuic5 drugAddDescription.ui -o mDrugAddDescription.py
